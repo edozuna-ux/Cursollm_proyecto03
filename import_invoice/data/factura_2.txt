@@ -1,0 +1,12 @@
+ARRENDAMIENTOS DEL NORTE
+RFC: ARN980712TR3
+Recibo de Arrendamiento: Folio 883
+
+Fecha del documento: 2026-04-01
+Concepto: Pago correspondiente a la renta del local comercial número 5 durante el periodo del mes de abril de 2026.
+
+Monto Neto: 12500.00
+Divisa: MXN
+Total Liquido: $12,500.00 MXN
+
+Favor de depositar a la cuenta habitual antes de los primeros 5 días del mes.

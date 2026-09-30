@@ -1,0 +1,12 @@
+GLOBAL SOFTWARE SOLUTIONS LLC
+RFC: GSS15082299A
+Invoice Number: 
+Invoice Date: 2026-05-20
+
+This is a commercial expense report for the annual renewal of Cloud Infrastructure Services and database maintenance.
+
+Summary:
+Total Invoice Amount: 450.00 USD
+Currency: USD
+
+Payment terms: Net 30.

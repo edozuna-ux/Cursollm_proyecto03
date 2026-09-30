@@ -1,0 +1,58 @@
+==========================================================================
+        Reporte Log de Proceso de Carga y Extracion de datos              
+==========================================================================
+ Total Documentos            : 5
+ Docs Cargado con Exito      : 0 
+ Docs  Fallidos              : 5 
+==========================================================================
+
+
+----------------------------- Archivo: factura_1.txt-----------------------------
+   • Estatus: Fallo
+   • Mensaje: ✔ Extracción exitosa y validada en el intento 1. -->! Fallo al insertar en Oracle. Verifique la base de datos.
+   • Datos Extraídos:
+     {
+         "proveedor": "COMPAÑÍA DE PAPELERÍA S.A. DE C.V.",
+         "fecha_emision": "2026-03-15",
+         "monto_total": 1740.0,
+         "moneda": "MXN",
+         "rfc_emisor": "CPA120345K78",
+         "concepto_principal": "Papelería",
+         "numero_doc": "A-4592"
+     }
+
+----------------------------- Archivo: factura_2.txt-----------------------------
+   • Estatus: Fallo
+   • Mensaje: ✔ Extracción exitosa y validada en el intento 1. -->! Fallo al insertar en Oracle. Verifique la base de datos.
+   • Datos Extraídos:
+     {
+         "proveedor": "ARNENDAMIENTOS DEL NORTE",
+         "fecha_emision": "2026-04-01",
+         "monto_total": 12500.0,
+         "moneda": "MXN",
+         "rfc_emisor": "ARN980712TR3",
+         "concepto_principal": "Renta",
+         "numero_doc": "883"
+     }
+
+----------------------------- Archivo: factura_3.txt-----------------------------
+   • Estatus: Fallo
+   • Mensaje: !Fallo de esquema Pydantic -> ('numero_doc',): Value error, Estructura de folio incorrecta. El texto es demasiado largo para ser un folio válido (23 caracteres). Valor recibido: 'Invoice Number: (vacío)'
+
+----------------------------- Archivo: factura_4.txt-----------------------------
+   • Estatus: Fallo
+   • Mensaje: ✔ Extracción exitosa y validada en el intento 1. -->! Fallo al insertar en Oracle. Verifique la base de datos.
+   • Datos Extraídos:
+     {
+         "proveedor": "SERVICIOS LOGÍSTICOS INTERNACIONALES",
+         "fecha_emision": "2026-06-12",
+         "monto_total": 35000.0,
+         "moneda": "USD",
+         "rfc_emisor": "SLI101010H33",
+         "concepto_principal": "Gasto Comercial",
+         "numero_doc": "45654"
+     }
+
+----------------------------- Archivo: factura_5.txt-----------------------------
+   • Estatus: Fallo
+   • Mensaje: !Fallo de esquema Pydantic -> ('monto_total',): Value error, El monto total debe ser un número positivo., ('numero_doc',): Value error, Estructura de folio incorrecta. Un folio válido solo debe contener caracteres alfanuméricos sin espacios (ej. A-4592, 883, INV_2026, AR5656). Valor recibido: 'NO ESPECIFICADO'
