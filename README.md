@@ -2,9 +2,9 @@
 # Fundamentos de Arquitectura LLM 
 # Name: Extractor de Datos Estructurados desde Documentos 03
 # Descripcion: 
-             Este proyecto implementa un pipeline  diseñado para transformar texto desestructurado (transcripciones de facturas y recibos comerciales) en un objeto de datos estructurado y validado mediante Pydantic v2. 
+             Este proyecto esta programado un pipeline  diseñado para transformar texto desestructurado (transcripciones de facturas y recibos comerciales) en un objeto de datos estructurado y validado mediante Pydantic v2. 
 
-            el alcance de este programa asgura la carga de los registros a una base de datos Oracle, Evita que los errores de datos o alucinaciones del modelo sean interceptados programacion sin detener el procesamiento del lote.
+            el alcance de este programa asegura la carga de los registros a una base de datos Oracle, Evita que los errores de datos o alucinaciones del modelo sean interceptados por programacion sin detener el procesamiento del lote.
  # Fecha    Name         Vers   Descripcion           
  # 20260928 Edgar Ozuna  1.0    Carga de Archivos como tickets de facturas y recibos.           
 
